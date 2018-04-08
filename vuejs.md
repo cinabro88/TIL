@@ -1,5 +1,5 @@
 # 실습준비
-[JSBin](jsbin.com) 을 이용해서 간단한 예제를 작성해보면서 실습을 진행. Add Library 를 통해 Vue.js 추가. 혹은 CDN을 이용해 최신버전 추가해 준다.
+[JSBin](http://jsbin.com/) 을 이용해서 간단한 예제를 작성해보면서 실습을 진행. Add Library 를 통해 Vue.js 추가. 혹은 CDN을 이용해 최신버전 추가해 준다.
 ``` js
 <script src="https://unpkg.com/vue/dist/vue.js"></script> 
 ```
@@ -21,7 +21,7 @@
   <script src="https://unpkg.com/vue/dist/vue.js"></script>
 </body>
 </html>
-```
+```w
 
 ## JavaScript
 ``` js
