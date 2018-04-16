@@ -23,6 +23,7 @@ export default {
 
     clearResult() {
         console.log(tag, 'clearResult()')
+        ResultView.clear()
     },
 
     onSubmit(input) {

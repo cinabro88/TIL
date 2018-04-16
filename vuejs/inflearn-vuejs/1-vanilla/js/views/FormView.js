@@ -25,7 +25,7 @@ FormView.bindEvents = function() {
 
 FormView.onClickReset = function(e) {
     this.emit('@reset')
-    showResetBtn(false)
+    this.showResetBtn(false)
 }
 
 FormView.onKeyup = function(e) {
