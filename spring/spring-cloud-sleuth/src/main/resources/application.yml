@@ -1,0 +1,8 @@
+spring.application.name: sleuth-tester
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          servlet:
+            DispatcherServlet: DEBUG
