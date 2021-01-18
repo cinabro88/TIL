@@ -203,6 +203,21 @@ db.orders.find({item: 'abc', qty: {$gt: 15}})
 
 
 
+## 모델링
+
+### References
+
+* 문서간 레퍼런스 형태로 데이터 접근이 가능
+
+### Embedded Data
+
+- Single document에 sub document 를 포함하는 구조
+- Document(BSON)는 16MB를 넘을 수 없음.
+
+인덱스는 생성시 쓰기 동작 성능을 저하시킨다.
+
+
+
 
 
 
